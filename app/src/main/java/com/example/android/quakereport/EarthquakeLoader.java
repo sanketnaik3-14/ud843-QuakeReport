@@ -4,11 +4,9 @@ import android.content.AsyncTaskLoader;
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -19,9 +17,6 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.example.android.quakereport.QueryUtils.createUrl;
-import static com.example.android.quakereport.QueryUtils.makeHttpRequest;
 
 /**
  * Created by sanket on 01/03/17.
